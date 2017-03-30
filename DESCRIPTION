@@ -1,11 +1,10 @@
 Package: LittleChickens
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Weight of Chicks
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Xiangmei Zhang, Katie Will, Dinesh Poddaturi
+Maintainer: Katie Will <katiewill@iastate.edu>
+Description: Calculates the mean weight of 28 chicks. 
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
