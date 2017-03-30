@@ -1,26 +1,18 @@
-#' Calculate the mean of the chick weights.
-#'
-#' @export
-#' @return The mean weight.
-#' @examples
-#' ave_chick_wt()
 
-#' Prices of 50,000 round cut diamonds.
+#' Average weight of 28 chicks.
 #'
-#' A dataset containing the prices and other attributes of almost 54,000
-#' diamonds.
+#' A dataset containing the weights of 28 chicks.
 #'
 #' @format A data frame with 53940 rows and 10 variables:
 #' \describe{
-#'   \item{price}{price, in US dollars}
-#'   \item{carat}{weight of the diamond, in carats}
+#'   \item{price}{weight, in grams}
+#'   \item{Chick}{identifier}
 #'   ...
 #' }
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/ChickWeight.html}
 "chicks"
 
-data("chicks")
-
+#' @export
 ave_chick_wt <- function(){
   sum(chicks$weight)/nrow(chicks)
 }

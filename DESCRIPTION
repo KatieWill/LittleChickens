@@ -8,3 +8,4 @@ Description: Calculates the mean weight of 28 chicks.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
